@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawfirm Website</title>
+    <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+    <section class="sub-header">
+         <nav>
+            <a href="index.html"><img src="images/logo.jpeg"></a>
+            <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+            <h1>Our Location</h1>
+    </section>
+
+
+<!-- Location -->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6372948770268!2d36.76150137388263!3d-1.3941240357512148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f05e96c3433f7%3A0xb6620ac308ea3b90!2sMaasai%20Mall!5e0!3m2!1sen!2ske!4v1783550053182!5m2!1sen!2ske" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</section>
+<div class="footer">
+<section class="contact-us">
+    <div class="row">
+<div class="contact-col">
+    <div class="contact-item">
+        <i class="fa fa-home"></i>
+        <span>
+            <h5>XYZ Road, ABC Building</h5>
+            <p>Maasai Mall, Ongata-Rongai</p>
+        </span>
+    </div>
+
+    <div class="contact-item">
+        <i class="fa fa-phone"></i>
+        <span>
+            <h5>+254 769 666 273</h5>
+            <p>Open Monday To Saturday, 8AM To 5PM</p>
+        </span>
+    </div>
+
+    <div class="contact-item">
+        <i class="fa fa-envelope-o"></i>
+        <span>
+            <h5>simeonkiloki@gmail.com</h5>
+            <p>Email us</p>
+        </span>
+    </div>
+</div>
+        <div class="contact-col">
+       
+            <div class="consult-box">
+                <h3>Request a Consultation</h3>
+
+                    <form class="consult-form">
+                        <input type="text" placeholder="Your Name">
+                        <input type="email" placeholder="Your Email">
+                        <textarea rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit" class="hero-btn red-btn">SEND</button>
+
+
+                    </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+     
+
+    
+
+
+
+
+
+
+    <!-- Footer -->
+
+
+    <section>
+       <p>© 2026 Edwin & Collins Advocates. All Rights Reserved</p>  
+
+    </section>
+
+
+
+    <!-- Javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px"; 
+        }
+ 
+    </script>
+    
+</body>
+</html>

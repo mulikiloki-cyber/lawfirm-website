@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawfirm Website</title>
+    <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+    <section class="sub-header">
+         <nav>
+            <a href="index.html"><img src="images/logo.jpeg"></a>
+            <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+            <h1>About Us</h1>
+           
+    </section>
+
+    <!-- About Us -->
+
+    <section class="about-page">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are Advocates, Commissioners for Oaths and Notaries Public</h1>
+                <p>E&C is a dynamic law firm combining extensive experience with youthful energy.
+                Our team is led by Collins Ado, Advocate of the High Court of Kenya,
+                with over 20 years of professional experience in litigation,
+                conveyancing, and general legal practice.</p>
+                <p>With offices in Nairobi and Kajiado, E&C is dedicated to providing fast,
+                reliable, and high-quality legal services to both individual and corporate
+                clients across Kenya and the wider East African region.</p>
+                <a href="">EXPLORE</a>
+            </div>
+             <div class="about-col">
+                <img src="images/lawyers.jpeg"        
+            </div>
+        </div>    
+    </section>
+
+
+<!-- Get in Touch -->
+
+    <section class="services">
+                <h1>Overview</h1>
+
+        <div class="row">
+            <div class="service-col">
+                <h3>Our Mission</h3>
+                <p>Our mission is to provide outstanding, client-centered legal 
+                    services with integrity, diligence, and compassion. We are 
+                    committed to delivering practical, effective solutions, 
+                    safeguarding our clients’ interests, and promoting justice 
+                    while upholding the highest standards of ethics and professionalism.</p>
+            </div>
+            <div class="service-col">
+                <h3>Our Vision</h3>
+                <p>To be the most trusted and innovative legal partner, empowering our 
+                    clients and contributing to a just and prosperous society through 
+                    exceptional legal service and unwavering ethical standards.
+.</p>
+            </div>
+            <div class="service-col">
+                <h3>Values</h3>
+                <p>Our firm is guided by integrity, client commitment, and excellence. 
+                    We uphold the highest standards of professionalism and 
+                    confidentiality while fostering respect, collaboration, and 
+                    accountability. Through sound legal judgment, innovative thinking, 
+                    and dedicated service, we deliver exceptional representation and 
+                    build lasting relationships founded on trust.
+
+</p>
+            </div>
+        </div>
+        <!-- <div class="row">
+            <div class="service-col">
+                <h3>Estate Planning & Management</h3>
+                <p>Estate planning services to individuals and families to protect their wealth for benefit of their beneficiaries and dependents.</p>
+            </div>
+            <div class="service-col">
+                <h3>Debt Collection & Recovery</h3>
+                <p>Fast, cost-effective, competent and efficient debt collection including debt restructuring and insolvency practices</p>
+            </div>
+            <div class="service-col">
+                 <h3>Litigation & Arbitration</h3>
+                <p>Courts and tribunals, Arbitration and Mediation.</p>
+            </div>
+        </div> -->
+    </section>
+
+
+
+
+     <!-- Why choose us -->
+
+    <section class="why-choose-us">
+        <h1>Why Choose Us</h1>
+        <!-- <p>Courts and tribunals, Arbitration and Mediation.</p> -->
+
+        <div class="row">
+            <div class="why-choose-us-col">
+                <h3>Client-Focused</h3>
+                <p>We prioritize our clients' needs and objectives, 
+                    by ensuring their perspective guides our legal strategies, 
+                    enabling them to receive high-quality services.</p>
+            </div>
+            <div class="why-choose-us-col">
+                <h3>Integrity</h3>
+                <p>We uphold the highest ethical standards, 
+                    building trust through transparency and honesty 
+                    in all our interactions.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="why-choose-us-col">
+                <h3>Collaboration </h3>
+                <p>We leverage diverse perspectives and expertise, 
+                    working closely with our clients, team, and partners 
+                    to develop innovative solutions.</p>
+            </div>
+            <div class="why-choose-us-col">
+                <h3>Continuous Improvement</h3>
+                <p>We are dedicated to ongoing learning and adaptation 
+                    in our practice, ensuring that we stay informed about 
+                    the latest legal developments and best practices 
+                    to enhance our services.</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+<!-- Get in Touch -->
+
+    <section class="services">
+                <h1>Get in Touch</h1>
+
+        <div class="row">
+            <div class="service-col">
+                <h3>Our Address</h3>
+                <p>For time-sensitive matters, calling the office is often the fastest route. Otherwise, use the form and we will reply as soon as practicable.</p>
+            </div>
+            <div class="service-col">
+                <h3>Connect with Us</h3>
+                <p>Security documentation for banks, land and other real estate sales and purchases.</p>
+            </div>
+            <div class="service-col">
+                <h3>Request Consultation</h3>
+                <p>Courts and tribunals, Arbitration and Mediation.</p>
+            </div>
+        </div>
+      
+    </section>
+
+
+
+    <!-- Footer -->
+
+
+    <section>
+       <p>© 2026 Edwin & Collins Advocates. All Rights Reserved</p>  
+
+    </section>
+
+
+
+    <!-- Javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px"; 
+        }
+ 
+    </script>
+    
+</body>
+</html>
