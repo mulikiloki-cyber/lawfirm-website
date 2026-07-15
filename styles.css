@@ -25,7 +25,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.jpeg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background1.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -62,7 +62,7 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background: #f97316;
+    background: #ea580c;
     display: block;
     margin: auto;
     transition: 0.005s;
@@ -183,7 +183,22 @@ p{
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: center;
+    color: #2563eb;
 }
+.icon {
+    width: 80px;
+    height: 80px;
+    fill: #f97316;
+    display: block;
+    margin: 0 auto;
+    background-color: #e2e8f0;
+    border-radius: 50%;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 
 /* Services */
 
@@ -309,8 +324,9 @@ h3{
     margin-bottom: 40px;
 }
 
-.contact-item .fa{
-    font-size: 28px;
+.contact-item .svg-inline--fa{
+
+    font-size: 25px;
     color: #f97316;
     margin: 10px 30px 10px 10px;
 }
@@ -337,8 +353,92 @@ h3{
 }
 
 
-/* .footer{
-background: #f8fafc;
-padding-top: 50px;
-padding-bottom: 50px;
-} */
+
+
+
+/* Footer */
+
+.footer{
+    margin: auto;
+    text-align: center;
+    background: #f97316;
+    width: 100%;
+    padding: 60px 0;
+}
+.footer-row{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0 auto;
+}
+.footer-col{
+    flex: 1;
+    padding: 20px;
+}
+.footer-item{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 15px;
+    min-height: 45px;
+}
+.footer-item .svg-inline--fa{
+    color: #111827;
+    text-align: center;
+}
+.footer-item span h5 {
+    margin: 0;
+    line-height: 1.3;
+}
+.footer-item span p {
+    margin: 2px 0 0;
+    padding: 0;
+    line-height: 1.3;
+}
+.footer-item span{
+    text-align: left;
+}
+#footer-h3{
+    color: #1d4ed8;
+    margin-bottom: 40px;
+}
+.footer-col p {
+    margin: 0;
+     padding-left: 0;
+    text-indent: 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.footer-links li {
+    margin-bottom: 15px;
+    min-height: 45px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #111827;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #f8fafc;
+}
+
+
+
+
+
+
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+
