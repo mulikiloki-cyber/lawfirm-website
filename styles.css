@@ -150,7 +150,7 @@ h1{
     font-size: 36px;
     font-weight: 600;
     color: #2563eb;
-      font-family: "Merriweather", serif;
+    font-family: "Merriweather", serif;
 
 }
 p{
@@ -160,6 +160,13 @@ p{
     line-height: 22px;
     padding: 10px;
     font-family: "Inter", sans-serif;
+
+}
+h5{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #111827;
+
 
 }
 
@@ -430,7 +437,10 @@ h3{
 .footer-links a:hover {
     color: #f8fafc;
 }
-
+.footer-content {
+    width: fit-content;
+    margin: 0 auto;
+}
 
 
 
