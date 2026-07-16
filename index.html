@@ -309,6 +309,24 @@ document.getElementById("consultationForm").onsubmit = function(event) {
     document.body.style.overflow = "auto";
     this.reset(); // Reset the form
 }
+// Mobile menu toggle
+document.addEventListener('DOMContentLoaded', function() {
+    const menuIcon = document.querySelector('.fa-bars');
+    const navLinks = document.querySelector('.nav-links');
+    
+    if (menuIcon && navLinks) {
+        menuIcon.addEventListener('click', function() {
+            navLinks.classList.toggle('active');
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!navLinks.contains(e.target) && !menuIcon.contains(e.target)) {
+                navLinks.classList.remove('active');
+            }
+        });
+    }
+});
  
     </script>
     
