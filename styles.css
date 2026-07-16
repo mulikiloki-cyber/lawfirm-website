@@ -646,14 +646,27 @@ html {
         width: 100%;
         max-width: 400px;
         padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-content {
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
     .footer-item {
-        justify-content: center;
+        justify-content: flex-start;
+        width: 100%;
     }
     
     .footer-item span {
-        text-align: center;
+        text-align: left;
     }
     
     /* Modal */
@@ -726,6 +739,19 @@ html {
         padding: 10px 20px;
         font-size: 12px;
     }
+
+    /* Footer additional adjustments */
+    .footer {
+        padding: 40px 0;
+    }
+    
+    .footer-col {
+        padding: 5px;
+    }
+    
+    .footer-content {
+        max-width: 300px;
+    }
 }
 
 /* Small mobile devices (up to 480px) */
@@ -790,6 +816,10 @@ html {
     
     .footer-col {
         padding: 5px;
+    }
+    
+    .footer-content {
+        max-width: 280px;
     }
     
     .contact-col input,
