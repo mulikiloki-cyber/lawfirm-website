@@ -100,7 +100,6 @@ nav img{
     cursor: pointer;
 }
 .hero-btn:hover{
-    border: 1px solid #e2e8f0;
     background: #ea580c;
     transition: 0.025s;
 }
