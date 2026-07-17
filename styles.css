@@ -790,6 +790,17 @@ html {
     }
     /* ===== END LEFT ALIGN ===== */
 
+    /* ===== SPACE BETWEEN BUTTON AND IMAGE ON ABOUT PAGE ===== */
+    .about-col .hero-btn {
+        margin-bottom: 40px;
+    }
+
+    .about-col img {
+        width: 100%;
+        max-width: 100%;
+    }
+    /* ===== END BUTTON SPACING ===== */
+
     /* Section padding adjustments */
     .about-us {
         padding-top: 60px;
@@ -824,7 +835,7 @@ html {
     
     .about-col img {
         width: 100%;
-        max-width: 400px;
+        max-width: 100%;
     }
     
     /* Contact Page */
@@ -1077,6 +1088,12 @@ html {
         text-align: center;
     }
     /* ===== END LEFT ALIGN ===== */
+
+    /* ===== SPACE BETWEEN BUTTON AND IMAGE ON ABOUT PAGE ===== */
+    .about-col .hero-btn {
+        margin-bottom: 40px;
+    }
+    /* ===== END BUTTON SPACING ===== */
 }
 
 /* Small mobile devices (up to 480px) */
@@ -1334,6 +1351,12 @@ html {
         text-align: center;
     }
     /* ===== END LEFT ALIGN ===== */
+
+    /* ===== SPACE BETWEEN BUTTON AND IMAGE ON ABOUT PAGE ===== */
+    .about-col .hero-btn {
+        margin-bottom: 40px;
+    }
+    /* ===== END BUTTON SPACING ===== */
 }
 
 /* Large screens (1200px and above) */
