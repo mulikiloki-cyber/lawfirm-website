@@ -778,6 +778,16 @@ html {
     }
     /* ===== END FONT SIZE INCREASE ===== */
 
+    /* ===== LEFT ALIGN PARAGRAPHS ON TABLET ===== */
+    p:not(.text-box p):not(.footer p):not(.footer-col p):not(.footer-item p):not(.about-us p) {
+        text-align: left;
+    }
+
+    .text-box p {
+        text-align: center;
+    }
+    /* ===== END LEFT ALIGN ===== */
+
     /* Section padding adjustments */
     .about-us {
         padding-top: 60px;
@@ -1055,6 +1065,16 @@ html {
     .sub-header h1 {
         font-size: 32px;
     }
+
+    /* ===== LEFT ALIGN PARAGRAPHS ON MOBILE ===== */
+    p:not(.text-box p):not(.footer p):not(.footer-col p):not(.footer-item p):not(.about-us p) {
+        text-align: left;
+    }
+
+    .text-box p {
+        text-align: center;
+    }
+    /* ===== END LEFT ALIGN ===== */
 }
 
 /* Small mobile devices (up to 480px) */
@@ -1301,6 +1321,16 @@ html {
     #footer-h3 {
         margin-bottom: 25px;
     }
+
+    /* ===== LEFT ALIGN PARAGRAPHS ON SMALL MOBILE ===== */
+    p:not(.text-box p):not(.footer p):not(.footer-col p):not(.footer-item p):not(.about-us p) {
+        text-align: left;
+    }
+
+    .text-box p {
+        text-align: center;
+    }
+    /* ===== END LEFT ALIGN ===== */
 }
 
 /* Large screens (1200px and above) */
