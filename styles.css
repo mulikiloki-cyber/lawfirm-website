@@ -633,13 +633,13 @@ html {
     .service-col {
         max-width: 100%;
         padding: 25px 20px 20px 20px;
-        margin-bottom: 25px;
+        margin-bottom: 35px;
     }
 
     .why-choose-us-col {
         max-width: 100%;
         padding: 20px 20px 10px 20px;
-        margin-bottom: 25px;
+        margin-bottom: 35px;
     }
     /* ===== END WIDTH INCREASE ===== */
 
@@ -926,6 +926,7 @@ html {
     
     .service-col {
         padding: 20px 18px 15px 18px;
+        margin-bottom: 40px;
     }
 
     .service-col p {
@@ -935,6 +936,11 @@ html {
 
     .service-col h3 {
         font-size: 18px;
+    }
+
+    .why-choose-us-col {
+        padding: 20px 18px 10px 18px;
+        margin-bottom: 40px;
     }
 
     .why-choose-us-col p {
@@ -1116,9 +1122,19 @@ html {
         line-height: 2;
     }
 
+    .why-choose-us-col {
+        padding: 15px 15px 8px 15px;
+        margin-bottom: 45px;
+    }
+
     .why-choose-us-col p {
         padding: 5px 0 12px 0;
         line-height: 1.9;
+    }
+
+    .service-col {
+        padding: 18px 15px 12px 15px;
+        margin-bottom: 45px;
     }
 
     .service-col p {
@@ -1126,18 +1142,8 @@ html {
         line-height: 1.9;
     }
 
-    .service-col {
-        padding: 18px 15px 12px 15px;
-        margin-bottom: 20px;
-    }
-
     .service-col h3 {
         font-size: 17px;
-    }
-
-    .why-choose-us-col {
-        padding: 15px 15px 8px 15px;
-        margin-bottom: 20px;
     }
 
     .why-choose-us-col h3 {
