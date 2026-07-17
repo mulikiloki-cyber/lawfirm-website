@@ -608,6 +608,97 @@ html {
         width: 100%;
         max-width: 400px;
     }
+
+    /* ===== ADDED BREATHING SPACE FOR SMALL SCREENS ===== */
+    /* Headline spacing */
+    h1 {
+        margin-bottom: 20px;
+        padding-bottom: 5px;
+    }
+
+    .about-us h1 {
+        margin-bottom: 25px;
+    }
+
+    .why-choose-us h1 {
+        margin-bottom: 30px;
+    }
+
+    .services h1 {
+        margin-bottom: 25px;
+    }
+
+    .contact-us h1 {
+        margin-bottom: 25px;
+    }
+
+    .sub-header h1 {
+        margin-bottom: 10px;
+    }
+
+    /* Paragraph spacing after headlines */
+    .about-us p {
+        margin-top: 10px;
+        padding: 15px 10px;
+        line-height: 1.8;
+    }
+
+    .why-choose-us-col p {
+        padding: 8px 0 15px 0;
+        line-height: 1.7;
+    }
+
+    .service-col p {
+        padding: 12px 5px 5px 5px;
+        line-height: 1.7;
+    }
+
+    .about-col p {
+        padding: 18px 0 25px 0;
+        line-height: 1.8;
+    }
+
+    /* Section padding adjustments */
+    .about-us {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    .why-choose-us {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .services {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    /* Card spacing */
+    .service-col {
+        padding: 25px 15px 20px 15px;
+        margin-bottom: 25px;
+    }
+
+    .why-choose-us-col {
+        padding: 20px 15px 10px 15px;
+        margin-bottom: 25px;
+    }
+
+    .why-choose-us-col h3 {
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+
+    .service-col h3 {
+        margin-top: 5px;
+        margin-bottom: 12px;
+    }
+
+    /* Icon spacing */
+    .icon {
+        margin-bottom: 10px;
+    }
     
     /* About Page */
     .about-page .row {
@@ -705,25 +796,49 @@ html {
     
     h1 {
         font-size: 28px;
+        margin-bottom: 18px;
     }
     
     .service-col {
-        padding: 15px 10px;
+        padding: 20px 12px 15px 12px;
     }
-    
+
+    .service-col p {
+        padding: 10px 5px 5px 5px;
+        line-height: 1.8;
+    }
+
+    .why-choose-us-col p {
+        padding: 5px 0 15px 0;
+        line-height: 1.8;
+    }
+
     .why-choose-us {
-        padding-top: 3%;
-        padding-bottom: 3%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .why-choose-us h1 {
+        margin-bottom: 25px;
     }
     
     .about-us {
-        padding-top: 60px;
-        padding-bottom: 3%;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .about-us p {
+        padding: 15px 5px;
+        line-height: 1.9;
     }
     
     .services {
-        padding-top: 50px;
-        padding-bottom: 3%;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .services h1 {
+        margin-bottom: 20px;
     }
     
     .contact-item {
@@ -780,25 +895,86 @@ html {
     
     h1 {
         font-size: 24px;
+        margin-bottom: 15px;
     }
     
     p {
         font-size: 12px;
-        padding: 5px;
+        padding: 8px 5px;
+        line-height: 1.8;
     }
-    
+
+    .about-us p {
+        padding: 12px 5px;
+        line-height: 2;
+    }
+
+    .why-choose-us-col p {
+        padding: 5px 0 12px 0;
+        line-height: 1.9;
+    }
+
+    .service-col p {
+        padding: 8px 5px 3px 5px;
+        line-height: 1.9;
+    }
+
     .service-col {
-        flex-basis: 100%;
-        padding: 12px 8px;
+        padding: 18px 10px 12px 10px;
+        margin-bottom: 20px;
     }
-    
+
     .why-choose-us-col {
-        flex-basis: 100%;
+        padding: 15px 12px 8px 12px;
+        margin-bottom: 20px;
+    }
+
+    .why-choose-us-col h3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .service-col h3 {
+        margin-top: 3px;
+        margin-bottom: 10px;
+    }
+
+    .about-col p {
+        padding: 15px 0 20px 0;
+        line-height: 2;
+    }
+
+    .about-us {
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+
+    .why-choose-us {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .why-choose-us h1 {
+        margin-bottom: 20px;
+    }
+
+    .services {
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    .services h1 {
+        margin-bottom: 18px;
+    }
+
+    .contact-us h1 {
+        margin-bottom: 20px;
     }
     
     .icon {
         width: 60px;
         height: 60px;
+        margin-bottom: 8px;
     }
     
     .logo {
@@ -811,7 +987,7 @@ html {
     }
     
     .footer {
-        padding: 40px 0;
+        padding: 30px 0;
     }
     
     .footer-col {
@@ -850,11 +1026,21 @@ html {
     
     .sub-header h1 {
         font-size: 24px;
+        margin-bottom: 8px;
     }
     
     .back-to-top a {
         padding: 8px 16px;
         font-size: 11px;
+    }
+
+    .footer-item {
+        gap: 12px;
+        margin-bottom: 12px;
+    }
+
+    #footer-h3 {
+        margin-bottom: 25px;
     }
 }
 
