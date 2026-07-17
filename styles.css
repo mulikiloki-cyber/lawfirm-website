@@ -602,8 +602,7 @@ html {
     
     /* Services & Why Choose Us */
     .row{
-        flex-direction: column;
-        align-items: center;
+        display: block;
     }
     
     .service-col,
@@ -611,6 +610,8 @@ html {
         flex-basis: 100%;
         width: 100%;
         max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* ===== INCREASED WIDTH FOR SMALL SCREENS ===== */
@@ -811,8 +812,7 @@ html {
     
     /* About Page */
     .about-page .row {
-        flex-direction: column;
-        align-items: center;
+        display: block;
     }
     
     .about-col {
@@ -828,7 +828,7 @@ html {
     
     /* Contact Page */
     .contact-us .row {
-        flex-direction: column;
+        display: block;
     }
     
     .contact-col {
