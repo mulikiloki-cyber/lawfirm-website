@@ -801,6 +801,14 @@ html {
     }
     /* ===== END BUTTON SPACING ===== */
 
+    /* ===== HEADING SPACING ON MOBILE ===== */
+    .why-choose-us h1,
+    .services h1,
+    .contact-us h1 {
+        margin-bottom: 25px;
+    }
+    /* ===== END HEADING SPACING ===== */
+
     /* Section padding adjustments */
     .about-us {
         padding-top: 60px;
@@ -1094,6 +1102,14 @@ html {
         margin-bottom: 40px;
     }
     /* ===== END BUTTON SPACING ===== */
+
+    /* ===== HEADING SPACING ON MOBILE ===== */
+    .why-choose-us h1,
+    .services h1,
+    .contact-us h1 {
+        margin-bottom: 25px;
+    }
+    /* ===== END HEADING SPACING ===== */
 }
 
 /* Small mobile devices (up to 480px) */
@@ -1357,6 +1373,14 @@ html {
         margin-bottom: 40px;
     }
     /* ===== END BUTTON SPACING ===== */
+
+    /* ===== HEADING SPACING ON MOBILE ===== */
+    .why-choose-us h1,
+    .services h1,
+    .contact-us h1 {
+        margin-bottom: 25px;
+    }
+    /* ===== END HEADING SPACING ===== */
 }
 
 /* Large screens (1200px and above) */
