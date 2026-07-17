@@ -789,6 +789,12 @@ html {
     }
     /* ===== END LEFT ALIGN ===== */
 
+    /* ===== CONSULTATION BUTTON ROUNDING ON MOBILE ===== */
+    .hero-btn {
+        border-radius: 6px;
+    }
+    /* ===== END BUTTON ROUNDING ===== */
+
     /* Section padding adjustments */
     .about-us {
         padding-top: 60px;
@@ -901,6 +907,7 @@ html {
     .hero-btn {
         padding: 12px 30px;
         font-size: 14px;
+        border-radius: 6px;
     }
     
     h1 {
@@ -1226,6 +1233,7 @@ html {
     .hero-btn {
         padding: 10px 25px;
         font-size: 13px;
+        border-radius: 6px;
     }
     
     .icon {
