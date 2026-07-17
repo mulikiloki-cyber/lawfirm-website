@@ -666,7 +666,8 @@ html {
 
     .hero-btn {
         font-size: 16px;
-        padding: 14px 38px;
+        padding: 16px 40px;
+        border-radius: 6px;
     }
 
     .about-us h1 {
@@ -789,12 +790,6 @@ html {
     }
     /* ===== END LEFT ALIGN ===== */
 
-    /* ===== CONSULTATION BUTTON ROUNDING ON MOBILE ===== */
-    .hero-btn {
-        border-radius: 6px;
-    }
-    /* ===== END BUTTON ROUNDING ===== */
-
     /* Section padding adjustments */
     .about-us {
         padding-top: 60px;
@@ -905,8 +900,8 @@ html {
     }
     
     .hero-btn {
-        padding: 12px 30px;
-        font-size: 14px;
+        padding: 16px 36px;
+        font-size: 15px;
         border-radius: 6px;
     }
     
@@ -1231,8 +1226,8 @@ html {
     }
 
     .hero-btn {
-        padding: 10px 25px;
-        font-size: 13px;
+        padding: 14px 28px;
+        font-size: 14px;
         border-radius: 6px;
     }
     
