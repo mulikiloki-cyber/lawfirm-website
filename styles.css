@@ -557,11 +557,11 @@ html {
 @media(max-width: 768px){
     /* Navigation */
     .text-box h1{
-        font-size: 36px;
+        font-size: 40px;
     }
     
     .text-box p{
-        font-size: 13px;
+        font-size: 15px;
     }
     
     .nav-links ul li{
@@ -594,6 +594,10 @@ html {
     
     .nav-links ul{
         padding: 30px;
+    }
+
+    .nav-links ul li a{
+        font-size: 18px;
     }
     
     /* Services & Why Choose Us */
@@ -639,10 +643,29 @@ html {
     }
     /* ===== END WIDTH INCREASE ===== */
 
-    /* Headline spacing */
+    /* ===== FONT SIZE INCREASE ===== */
     h1 {
+        font-size: 40px;
         margin-bottom: 20px;
         padding-bottom: 5px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    .hero-btn {
+        font-size: 16px;
+        padding: 14px 38px;
     }
 
     .about-us h1 {
@@ -663,9 +686,9 @@ html {
 
     .sub-header h1 {
         margin-bottom: 10px;
+        font-size: 40px;
     }
 
-    /* Paragraph spacing after headlines */
     .about-us p {
         margin-top: 10px;
         padding: 15px 10px;
@@ -677,15 +700,83 @@ html {
         line-height: 1.7;
     }
 
+    .why-choose-us-col h3 {
+        font-size: 20px;
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+
     .service-col p {
         padding: 12px 5px 5px 5px;
         line-height: 1.7;
+    }
+
+    .service-col h3 {
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 12px;
     }
 
     .about-col p {
         padding: 18px 0 25px 0;
         line-height: 1.8;
     }
+
+    .contact-item h5 {
+        font-size: 22px;
+    }
+
+    .contact-item p {
+        font-size: 16px;
+    }
+
+    .contact-col input,
+    .contact-col textarea {
+        font-size: 16px;
+        padding: 16px;
+    }
+
+    .modal-content h2 {
+        font-size: 28px;
+    }
+
+    .modal-form input,
+    .modal-form select,
+    .modal-form textarea {
+        font-size: 16px;
+        padding: 14px 16px;
+    }
+
+    .modal-form button {
+        font-size: 18px;
+        padding: 16px;
+    }
+
+    .back-to-top a {
+        font-size: 16px;
+        padding: 14px 34px;
+    }
+
+    .footer-item span h5 {
+        font-size: 16px;
+    }
+
+    .footer-item span p {
+        font-size: 15px;
+    }
+
+    #footer-h3 {
+        font-size: 22px;
+    }
+
+    .footer-links a {
+        font-size: 16px;
+    }
+
+    .footer-col p {
+        font-size: 15px;
+    }
+    /* ===== END FONT SIZE INCREASE ===== */
 
     /* Section padding adjustments */
     .about-us {
@@ -789,22 +880,31 @@ html {
 /* Mobile devices (up to 700px) */
 @media(max-width: 700px){
     .text-box h1{
-        font-size: 24px;
+        font-size: 32px;
     }
     
     .text-box p{
-        font-size: 12px;
+        font-size: 14px;
         margin: 5px 0 30px;
     }
     
     .hero-btn {
-        padding: 10px 25px;
-        font-size: 12px;
+        padding: 12px 30px;
+        font-size: 14px;
     }
     
     h1 {
-        font-size: 28px;
+        font-size: 32px;
         margin-bottom: 18px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    h3 {
+        font-size: 18px;
     }
 
     /* Further width increase */
@@ -833,9 +933,17 @@ html {
         line-height: 1.8;
     }
 
+    .service-col h3 {
+        font-size: 18px;
+    }
+
     .why-choose-us-col p {
         padding: 5px 0 15px 0;
         line-height: 1.8;
+    }
+
+    .why-choose-us-col h3 {
+        font-size: 18px;
     }
 
     .why-choose-us {
@@ -874,10 +982,24 @@ html {
     .contact-item .svg-inline--fa {
         margin: 0 0 10px 0;
     }
+
+    .contact-item h5 {
+        font-size: 20px;
+    }
+
+    .contact-item p {
+        font-size: 15px;
+    }
+
+    .contact-col input,
+    .contact-col textarea {
+        font-size: 15px;
+        padding: 14px;
+    }
     
     .back-to-top a {
-        padding: 10px 20px;
-        font-size: 12px;
+        padding: 12px 24px;
+        font-size: 14px;
     }
 
     .footer {
@@ -891,16 +1013,52 @@ html {
     .footer-content {
         max-width: 300px;
     }
+
+    .footer-item span h5 {
+        font-size: 15px;
+    }
+
+    .footer-item span p {
+        font-size: 14px;
+    }
+
+    #footer-h3 {
+        font-size: 20px;
+    }
+
+    .footer-links a {
+        font-size: 15px;
+    }
+
+    .modal-content h2 {
+        font-size: 26px;
+    }
+
+    .modal-form input,
+    .modal-form select,
+    .modal-form textarea {
+        font-size: 15px;
+        padding: 12px 14px;
+    }
+
+    .modal-form button {
+        font-size: 16px;
+        padding: 14px;
+    }
+
+    .sub-header h1 {
+        font-size: 32px;
+    }
 }
 
 /* Small mobile devices (up to 480px) */
 @media(max-width: 480px){
     .text-box h1 {
-        font-size: 20px;
+        font-size: 26px;
     }
     
     .text-box p {
-        font-size: 11px;
+        font-size: 13px;
         padding: 0 5px;
     }
     
@@ -916,16 +1074,24 @@ html {
     .nav-links.active {
         right: 0;
     }
+
+    .nav-links ul li a{
+        font-size: 16px;
+    }
     
     h1 {
-        font-size: 24px;
+        font-size: 28px;
         margin-bottom: 15px;
     }
     
     p {
-        font-size: 12px;
+        font-size: 14px;
         padding: 8px 5px;
         line-height: 1.8;
+    }
+
+    h3 {
+        font-size: 17px;
     }
 
     /* Almost full width for very small screens */
@@ -965,12 +1131,17 @@ html {
         margin-bottom: 20px;
     }
 
+    .service-col h3 {
+        font-size: 17px;
+    }
+
     .why-choose-us-col {
         padding: 15px 15px 8px 15px;
         margin-bottom: 20px;
     }
 
     .why-choose-us-col h3 {
+        font-size: 17px;
         margin-top: 15px;
         margin-bottom: 15px;
     }
@@ -1011,6 +1182,25 @@ html {
     .contact-us h1 {
         margin-bottom: 20px;
     }
+
+    .contact-item h5 {
+        font-size: 18px;
+    }
+
+    .contact-item p {
+        font-size: 14px;
+    }
+
+    .contact-col input,
+    .contact-col textarea {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .hero-btn {
+        padding: 10px 25px;
+        font-size: 13px;
+    }
     
     .icon {
         width: 60px;
@@ -1038,11 +1228,28 @@ html {
     .footer-content {
         max-width: 280px;
     }
+
+    .footer-item span h5 {
+        font-size: 14px;
+    }
+
+    .footer-item span p {
+        font-size: 13px;
+    }
+
+    #footer-h3 {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .footer-links a {
+        font-size: 14px;
+    }
     
     .contact-col input,
     .contact-col textarea {
         padding: 12px;
-        font-size: 12px;
+        font-size: 14px;
     }
     
     .modal-content {
@@ -1051,14 +1258,19 @@ html {
     }
     
     .modal-content h2 {
-        font-size: 20px;
+        font-size: 22px;
     }
     
     .modal-form input,
     .modal-form select,
     .modal-form textarea {
         padding: 10px 12px;
-        font-size: 12px;
+        font-size: 14px;
+    }
+
+    .modal-form button {
+        font-size: 15px;
+        padding: 12px;
     }
     
     .sub-header {
@@ -1066,13 +1278,13 @@ html {
     }
     
     .sub-header h1 {
-        font-size: 24px;
+        font-size: 28px;
         margin-bottom: 8px;
     }
     
     .back-to-top a {
         padding: 8px 16px;
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .footer-item {
