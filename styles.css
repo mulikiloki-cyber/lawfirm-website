@@ -91,6 +91,7 @@ nav img{
 .text-box h1{
     font-size: 62px;
     color: #ffffff;
+    margin-bottom: 0;
 }
 .text-box p{
     margin: 10px 0 40px;
@@ -130,6 +131,7 @@ h1{
     color: #2563eb;
     font-family: "Merriweather", serif;
     text-align: center;
+    margin-bottom: 40px;
 
 }
 p{
@@ -150,6 +152,7 @@ h5{
 }
 .sub-header h1{
     color: #ffffff;
+    margin-bottom: 0;
 }
 
 /* Why choose us */
@@ -252,7 +255,7 @@ h3{
 .about-page{
     width: 90%;
     margin: auto;
-    padding: 80px 0;
+    padding: 40px 0 80px 0;
     text-align: start;
 }
 .about-col{
@@ -566,6 +569,7 @@ html {
     /* Navigation */
     .text-box h1{
         font-size: 40px;
+        margin-bottom: 0;
     }
     
     .text-box p{
@@ -688,6 +692,7 @@ html {
 
     .about-page {
         width: 92%;
+        padding: 30px 0 60px 0;
         padding-left: 2%;
         padding-right: 2%;
     }
@@ -708,7 +713,7 @@ html {
     /* ===== FONT SIZE INCREASE ===== */
     h1 {
         font-size: 40px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         padding-bottom: 5px;
     }
 
@@ -729,22 +734,6 @@ html {
         font-size: 16px;
         padding: 16px 40px;
         border-radius: 6px;
-    }
-
-    .about-us h1 {
-        margin-bottom: 25px;
-    }
-
-    .why-choose-us h1 {
-        margin-bottom: 35px;
-    }
-
-    .services h1 {
-        margin-bottom: 30px;
-    }
-
-    .contact-us h1 {
-        margin-bottom: 30px;
     }
 
     .sub-header h1 {
@@ -868,14 +857,6 @@ html {
     }
     /* ===== END BUTTON SPACING ===== */
 
-    /* ===== HEADING SPACING ON MOBILE ===== */
-    .why-choose-us h1,
-    .services h1,
-    .contact-us h1 {
-        margin-bottom: 25px;
-    }
-    /* ===== END HEADING SPACING ===== */
-
     /* ===== CONTACT ITEMS SIDE BY SIDE ON MOBILE ===== */
     .contact-item {
         flex-direction: row;
@@ -990,6 +971,7 @@ html {
 @media(max-width: 700px){
     .text-box h1{
         font-size: 32px;
+        margin-bottom: 0;
     }
     
     .text-box p{
@@ -1005,7 +987,7 @@ html {
     
     h1 {
         font-size: 32px;
-        margin-bottom: 18px;
+        margin-bottom: 30px;
     }
 
     p {
@@ -1030,6 +1012,7 @@ html {
 
     .about-page {
         width: 95%;
+        padding: 25px 0 50px 0;
         padding-left: 2.5%;
         padding-right: 2.5%;
     }
@@ -1066,10 +1049,6 @@ html {
         padding-top: 30px;
         padding-bottom: 30px;
     }
-
-    .why-choose-us h1 {
-        margin-bottom: 35px;
-    }
     
     .about-us {
         padding-top: 50px;
@@ -1084,10 +1063,6 @@ html {
     .services {
         padding-top: 40px;
         padding-bottom: 20px;
-    }
-
-    .services h1 {
-        margin-bottom: 30px;
     }
     
     .contact-item {
@@ -1171,6 +1146,7 @@ html {
 
     .sub-header h1 {
         font-size: 32px;
+        margin-bottom: 10px;
     }
 
     /* ===== LEFT ALIGN PARAGRAPHS ON MOBILE ===== */
@@ -1188,20 +1164,13 @@ html {
         margin-bottom: 40px;
     }
     /* ===== END BUTTON SPACING ===== */
-
-    /* ===== HEADING SPACING ON MOBILE ===== */
-    .why-choose-us h1,
-    .services h1,
-    .contact-us h1 {
-        margin-bottom: 25px;
-    }
-    /* ===== END HEADING SPACING ===== */
 }
 
 /* Small mobile devices (up to 480px) */
 @media(max-width: 480px){
     .text-box h1 {
         font-size: 26px;
+        margin-bottom: 0;
     }
     
     .text-box p {
@@ -1243,7 +1212,7 @@ html {
     
     h1 {
         font-size: 28px;
-        margin-bottom: 15px;
+        margin-bottom: 30px;
     }
     
     p {
@@ -1269,6 +1238,7 @@ html {
 
     .about-page {
         width: 98%;
+        padding: 20px 0 40px 0;
         padding-left: 1%;
         padding-right: 1%;
     }
@@ -1328,21 +1298,9 @@ html {
         padding-bottom: 25px;
     }
 
-    .why-choose-us h1 {
-        margin-bottom: 35px;
-    }
-
     .services {
         padding-top: 30px;
         padding-bottom: 15px;
-    }
-
-    .services h1 {
-        margin-bottom: 30px;
-    }
-
-    .contact-us h1 {
-        margin-bottom: 30px;
     }
 
     .contact-item {
@@ -1458,7 +1416,7 @@ html {
     
     .sub-header h1 {
         font-size: 28px;
-        margin-bottom: 8px;
+        margin-bottom: 10px;
     }
     
     .back-to-top a {
@@ -1490,20 +1448,13 @@ html {
         margin-bottom: 40px;
     }
     /* ===== END BUTTON SPACING ===== */
-
-    /* ===== HEADING SPACING ON MOBILE ===== */
-    .why-choose-us h1,
-    .services h1,
-    .contact-us h1 {
-        margin-bottom: 25px;
-    }
-    /* ===== END HEADING SPACING ===== */
 }
 
 /* Large screens (1200px and above) */
 @media(min-width: 1200px){
     .text-box h1 {
         font-size: 72px;
+        margin-bottom: 0;
     }
     
     .service-col {
