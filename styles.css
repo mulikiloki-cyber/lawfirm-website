@@ -122,8 +122,7 @@ nav .svg-inline--fa{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 5%;
+    padding: 80px 0;
 }
 h1{
     font-size: 36px;
@@ -158,8 +157,7 @@ h5{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding: 80px 0;
 }
 .why-choose-us-col{
     flex-basis: 44%;
@@ -210,8 +208,7 @@ h5{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: 5%;
+    padding: 80px 0;
 }
 .background{
     background-color: #f8fafc;
@@ -255,8 +252,7 @@ h3{
 .about-page{
     width: 90%;
     margin: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 80px 0;
     text-align: start;
 }
 .about-col{
@@ -308,7 +304,7 @@ h3{
 .contact-us{
     width: 80%;
     margin: auto;
-    padding-bottom: 5%;
+    padding: 80px 0;
 }
 
 .contact-col{
