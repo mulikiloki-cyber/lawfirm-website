@@ -280,78 +280,77 @@
         }
 
         // Get the modal
-var modal = document.getElementById("consultationModal");
+        var modal = document.getElementById("consultationModal");
 
-// Get the button that opens the modal
-var btn = document.querySelector(".hero-btn");
+        // Get the button that opens the modal
+        var btn = document.querySelector(".hero-btn");
 
-// Get the <span> element that closes the modal
-var span = document.querySelector(".close-modal");
+        // Get the <span> element that closes the modal
+        var span = document.querySelector(".close-modal");
 
-// When the user clicks the button, open the modal
-btn.onclick = function(event) {
-    event.preventDefault();
-    modal.style.display = "block";
-    document.body.style.overflow = "hidden"; // Prevent scrolling
-}
+        // When the user clicks the button, open the modal
+        btn.onclick = function(event) {
+            event.preventDefault();
+            modal.style.display = "block";
+            document.body.style.overflow = "hidden"; // Prevent scrolling
+        }
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-    document.body.style.overflow = "auto"; // Re-enable scrolling
-}
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+            document.body.style.overflow = "auto"; // Re-enable scrolling
+        }
 
-// When the user clicks anywhere outside the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-        document.body.style.overflow = "auto";
-    }
-}
+        // When the user clicks anywhere outside the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+                document.body.style.overflow = "auto";
+            }
+        }
 
-// FormSubmit handles the submission - no need for alert anymore
-    
-    // Mobile menu toggle
-document.addEventListener('DOMContentLoaded', function() {
-    const menuIcon = document.querySelector('.fa-bars');
-    const navLinks = document.querySelector('.nav-links');
-    
-    if (menuIcon && navLinks) {
-        menuIcon.addEventListener('click', function() {
-            navLinks.classList.toggle('active');
-        });
+        // FormSubmit handles the submission - no need for alert anymore
         
-        // Close menu when clicking outside
-        document.addEventListener('click', function(e) {
-            if (!navLinks.contains(e.target) && !menuIcon.contains(e.target)) {
-                navLinks.classList.remove('active');
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuIcon = document.querySelector('.fa-bars');
+            const navLinks = document.querySelector('.nav-links');
+            
+            if (menuIcon && navLinks) {
+                menuIcon.addEventListener('click', function() {
+                    navLinks.classList.toggle('active');
+                });
+                
+                // Close menu when clicking outside
+                document.addEventListener('click', function(e) {
+                    if (!navLinks.contains(e.target) && !menuIcon.contains(e.target)) {
+                        navLinks.classList.remove('active');
+                    }
+                });
             }
         });
-    }
-});
 
-// Show success message on index page
-window.onload = function() {
-    const urlParams = new URLSearchParams(window.location.search);
-    
-    if (urlParams.has('success')) {
-        // Check if we're on the index page
-        if (window.location.pathname.endsWith('index.html') || window.location.pathname.endsWith('/')) {
-            const successDiv = document.createElement('div');
-            successDiv.style.cssText = 'background: #4CAF50; color: white; padding: 20px; text-align: center; margin: 20px auto; max-width: 800px; border-radius: 5px;';
-            successDiv.innerHTML = '✅ Consultation request sent successfully! We\'ll get back to you soon.';
+        // Show success message on index page
+        window.onload = function() {
+            const urlParams = new URLSearchParams(window.location.search);
             
-            const header = document.querySelector('.header');
-            header.parentNode.insertBefore(successDiv, header.nextSibling);
-            
-            setTimeout(function() {
-                const cleanUrl = window.location.pathname;
-                window.history.replaceState({}, document.title, cleanUrl);
-            }, 3000);
-        }
-    }
-};
- 
+            if (urlParams.has('success')) {
+                // Check if we're on the index page
+                if (window.location.pathname.endsWith('index.html') || window.location.pathname.endsWith('/')) {
+                    const successDiv = document.createElement('div');
+                    successDiv.style.cssText = 'background: #4CAF50; color: white; padding: 20px; text-align: center; margin: 20px auto; max-width: 800px; border-radius: 5px;';
+                    successDiv.innerHTML = '✅ Consultation request sent successfully! We\'ll get back to you soon.';
+                    
+                    const header = document.querySelector('.header');
+                    header.parentNode.insertBefore(successDiv, header.nextSibling);
+                    
+                    setTimeout(function() {
+                        const cleanUrl = window.location.pathname;
+                        window.history.replaceState({}, document.title, cleanUrl);
+                    }, 3000);
+                }
+            }
+        };
     </script>
     
 </body>
