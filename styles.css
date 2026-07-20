@@ -969,6 +969,11 @@ html {
 
 /* Mobile devices (up to 700px) */
 @media(max-width: 700px){
+    /* REDUCED HERO HEIGHT FOR HOME PAGE ONLY */
+    .header{
+        min-height: 85vh;
+    }
+    
     .text-box h1{
         font-size: 32px;
         margin-bottom: 0;
@@ -1168,6 +1173,11 @@ html {
 
 /* Small mobile devices (up to 480px) */
 @media(max-width: 480px){
+    /* REDUCED HERO HEIGHT FOR HOME PAGE ONLY */
+    .header{
+        min-height: 80vh;
+    }
+    
     .text-box h1 {
         font-size: 26px;
         margin-bottom: 0;
