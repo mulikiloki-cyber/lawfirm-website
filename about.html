@@ -65,11 +65,18 @@
     <div class="modal-content">
         <span class="close-modal">&times;</span>
         <h2>Schedule a Consultation</h2>
-        <form class="modal-form" id="consultationForm">
-            <input type="text" placeholder="Full Name" required>
-            <input type="email" placeholder="Email Address" required>
-            <input type="tel" placeholder="Phone Number">
-            <select required>
+        <form class="modal-form" id="consultationForm" action="https://formsubmit.co/mulikiloki@gmail.com" method="POST">
+            <!-- Hidden fields for FormSubmit -->
+            <input type="hidden" name="_subject" value="New Consultation Request">
+            <input type="hidden" name="_captcha" value="true">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://mulikiloki-cyber.github.io/lawfirm-website/about.html?success=1">
+            
+            <!-- Form fields -->
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="tel" name="phone" placeholder="Phone Number">
+            <select name="practice_area" required>
                 <option value="">Select Practice Area</option>
                 <option value="commercial">Commercial & Corporate</option>
                 <option value="conveyancing">Conveyancing</option>
@@ -77,7 +84,7 @@
                 <option value="estate">Estate Planning & Management</option>
                 <option value="debt">Debt Collection & Recovery</option>
             </select>
-            <textarea rows="4" placeholder="Brief description of your legal matter..."></textarea>
+            <textarea name="message" rows="4" placeholder="Brief description of your legal matter..."></textarea>
             <button type="submit" class="hero-btn">Submit Request</button>
         </form>
     </div>
@@ -95,7 +102,7 @@
                 <p>Our mission is to provide outstanding, client-centered legal 
                     services with integrity, diligence, and compassion. We are 
                     committed to delivering practical, effective solutions, 
-                    safeguarding our clients’ interests, and promoting justice 
+                    safeguarding our clients' interests, and promoting justice 
                     while upholding the highest standards of ethics and professionalism.</p>
             </div>
             <div class="service-col">
@@ -348,14 +355,8 @@ window.onclick = function(event) {
     }
 }
 
-// Handle form submission
-document.getElementById("consultationForm").onsubmit = function(event) {
-    event.preventDefault();
-    alert("Thank you for your consultation request! We will get back to you shortly.");
-    modal.style.display = "none";
-    document.body.style.overflow = "auto";
-    this.reset(); // Reset the form
-}
+// FormSubmit handles the submission - no need for alert anymore
+
 // Mobile menu toggle
 document.addEventListener('DOMContentLoaded', function() {
     const menuIcon = document.querySelector('.fa-bars');
@@ -374,6 +375,27 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+// Show success message on about page
+window.onload = function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    
+    if (urlParams.has('success')) {
+        if (window.location.pathname.endsWith('about.html')) {
+            const successDiv = document.createElement('div');
+            successDiv.style.cssText = 'background: #4CAF50; color: white; padding: 20px; text-align: center; margin: 20px auto; max-width: 800px; border-radius: 5px;';
+            successDiv.innerHTML = '✅ Consultation request sent successfully! We\'ll get back to you soon.';
+            
+            const subHeader = document.querySelector('.sub-header');
+            subHeader.parentNode.insertBefore(successDiv, subHeader.nextSibling);
+            
+            setTimeout(function() {
+                const cleanUrl = window.location.pathname;
+                window.history.replaceState({}, document.title, cleanUrl);
+            }, 3000);
+        }
+    }
+};
  
     </script>
     
